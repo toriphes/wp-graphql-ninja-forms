@@ -1,0 +1,32 @@
+{
+    "name": "toriphes/wp-graphql-ninja-forms",
+    "description": "Adds Ninja Forms Functionality to WPGraphQL schema",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3",
+        "squizlabs/php_codesniffer": "^3.3.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "process-timeout": 0
+    },
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Giulio Ganci",
+            "email": "giulioganci@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WPGraphQL\\NinjaForms\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
