@@ -16,7 +16,7 @@ class NF_Mapper {
 	/**
 	 * Return fields from the ninja form settings
 	 *
-	 * @param array $data ninja form entity settigns.
+	 * @param array  $data ninja form entity settigns.
 	 * @param string $type graphql type where the fields belongs to.
 	 *
 	 * @return array
@@ -121,7 +121,7 @@ class NF_Mapper {
 					};
 					break;
 				case 'toggle':
-					$return_value = $value && (int) 1 === $value;
+					$return_value = $value && (int) 1 === (int) $value;
 					break;
 				case 'number':
 					$return_value = $value ? (int) $value : null;

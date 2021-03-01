@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'WPGraphQL\\NinjaForms\\Connection\\Field_Connection' => $baseDir . '/src/connection/class-field-connection.php',
     'WPGraphQL\\NinjaForms\\Connection\\Form_Connection' => $baseDir . '/src/connection/class-form-connection.php',
     'WPGraphQL\\NinjaForms\\Core_Schema_Filters' => $baseDir . '/src/class-core-schema-filters.php',

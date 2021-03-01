@@ -21,6 +21,7 @@ class ComposerStaticInit24abdfdfdef450ca1376b6314df711a6
     );
 
     public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'WPGraphQL\\NinjaForms\\Connection\\Field_Connection' => __DIR__ . '/../..' . '/src/connection/class-field-connection.php',
         'WPGraphQL\\NinjaForms\\Connection\\Form_Connection' => __DIR__ . '/../..' . '/src/connection/class-form-connection.php',
         'WPGraphQL\\NinjaForms\\Core_Schema_Filters' => __DIR__ . '/../..' . '/src/class-core-schema-filters.php',
