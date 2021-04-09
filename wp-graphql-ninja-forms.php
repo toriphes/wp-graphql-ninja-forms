@@ -10,7 +10,7 @@
  * Plugin Name:       WPGraphQL Ninja Forms
  * Plugin URI:        https://github.com/toriphes/wp-graphql-ninja-forms
  * Description:       Adds Ninja Forms Functionality to WPGraphQL schema.
- * Version:           0.1.1
+ * Version:           0.1.2
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Giulio Ganci
@@ -32,7 +32,7 @@ defined( 'ABSPATH' ) || exit;
 function nfgraphql_constants() {
 	// Plugin version.
 	if ( ! defined( 'WPGRAPHQL_NINJA_FORMS_VERSION' ) ) {
-		define( 'WPGRAPHQL_NINJA_FORMS_VERSION', '0.1.1' );
+		define( 'WPGRAPHQL_NINJA_FORMS_VERSION', '0.1.2' );
 	}
 	// Plugin Folder Path.
 	if ( ! defined( 'WPGRAPHQL_NINJA_FORMS_PLUGIN_DIR' ) ) {
