@@ -90,6 +90,35 @@ class Field_Type {
 				},
 			],
 		);
+
+		register_graphql_object_type(
+			'FieldOption',
+			[
+				'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
+				'fields'      => [
+					'label'    => [
+						'type'        => 'String',
+						'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
+					],
+					'value'    => [
+						'type'        => 'String',
+						'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
+					],
+					'calc'     => [
+						'type'        => 'String',
+						'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
+					],
+					'selected' => [
+						'type'        => 'Boolean',
+						'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
+					],
+					'order'    => [
+						'type'        => 'Int',
+						'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
+					],
+				],
+			],
+		);
 	}
 
 	/**
