@@ -80,7 +80,9 @@ class Field_Model extends WPGQLModel {
 
 			foreach ( $all_settings as $key => $value ) {
 				$field_name                  = graphql_format_field_name( $key );
-				$this->fields[ $field_name ] = $value;
+				$this->fields[ $field_name ] = function () use ( $value ) {
+					return $value;
+				};
 			}
 		}
 	}
