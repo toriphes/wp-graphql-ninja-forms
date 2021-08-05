@@ -17,7 +17,7 @@ class NF_Mapper {
 	 * Return fields from the ninja form settings
 	 *
 	 * @param array  $data ninja form entity settigns.
-	 * @param string $type graphql type where the fields belongs to.
+	 * @param string $base_type graphql type where the fields belongs to.
 	 *
 	 * @return array
 	 */
@@ -130,7 +130,11 @@ class NF_Mapper {
 					$return_value = $value;
 			}
 
-			$fields[ $field_name ] = $return_value;
+			if ( $field_name ) {
+				$fields[ $field_name ] = function () use ( $return_value ) {
+					return $return_value;
+				};
+			}
 		}
 
 		return $fields;
