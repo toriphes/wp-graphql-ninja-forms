@@ -83,7 +83,7 @@ class Form_Field_Interface {
 						'description' => __( 'The field is required?', 'wp-graphql-ninja-forms' ),
 					],
 					'labelPos'               => [
-						FieldLabelPosEnum						'type'        => 'String',
+						'type'        => 'String',
 						'description' => __( 'Position of the label', 'wp-graphql-ninja-forms' ),
 					],
 					'personallyIdentifiable' => [
