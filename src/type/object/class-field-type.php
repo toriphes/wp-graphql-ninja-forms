@@ -186,7 +186,7 @@ class Field_Type {
 			],
 			'personallyIdentifiable' => [
 				'type'        => 'Boolean',
-				'description' => __( 'Indtifiable?', 'wp-graphql-ninja-forms' ),
+				'description' => __( 'Identifiable?', 'wp-graphql-ninja-forms' ),
 			],
 		];
 	}

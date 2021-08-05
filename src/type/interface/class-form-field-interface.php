@@ -88,7 +88,7 @@ class Form_Field_Interface {
 					],
 					'personallyIdentifiable' => [
 						'type'        => 'Boolean',
-						'description' => __( 'Indtifiable?', 'wp-graphql-ninja-forms' ),
+						'description' => __( 'Identifiable?', 'wp-graphql-ninja-forms' ),
 					],
 				],
 				'resolveType' => function ( Field_Model $model ) use ( &$type_registry ) {
