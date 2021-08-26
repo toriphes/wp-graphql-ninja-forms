@@ -109,7 +109,7 @@ class NinjaForms {
 
 		// Initialize WPGraphQL Ninja Forms TypeRegistry.
 		$registry = new Type_Registry();
-		add_action( 'graphql_register_types', [ $registry, 'init' ], 10, 1 );
+		add_action( get_graphql_register_action(), [ $registry, 'init' ], 10, 1 );
 	}
 
 	/**

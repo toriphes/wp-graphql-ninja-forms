@@ -19,11 +19,11 @@ class Id_Type_Enums {
 		register_graphql_enum_type(
 			'FormIdTypeEnum',
 			[
-				'description' => __(
+				'description'     => __(
 					'The Type of Identifier used to fetch a single Form. Default is ID.',
 					'wp-graphql-ninja-forms'
 				),
-				'values'      => [
+				'values'          => [
 					'ID'          => [
 						'name'        => 'ID',
 						'value'       => 'global_id',

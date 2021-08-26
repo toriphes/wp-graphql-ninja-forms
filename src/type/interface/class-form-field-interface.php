@@ -39,7 +39,7 @@ class Form_Field_Interface {
 						'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
 					],
 					'databaseId'             => [
-						'type'        => 'Int!',
+						'type'        => 'Int',
 						'description' => __( 'The Id of the field', 'wp-graphql-ninja-forms' ),
 					],
 					'label'                  => [
