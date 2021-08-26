@@ -181,12 +181,12 @@ class Field_Type {
 				'description' => __( 'The field is required?', 'wp-graphql-ninja-forms' ),
 			],
 			'labelPos'               => [
-				'type'        => 'FieldLabelPosEnum',
+				'type'        => 'String',
 				'description' => __( 'Position of the label', 'wp-graphql-ninja-forms' ),
 			],
 			'personallyIdentifiable' => [
 				'type'        => 'Boolean',
-				'description' => __( 'Indtifiable?', 'wp-graphql-ninja-forms' ),
+				'description' => __( 'Identifiable?', 'wp-graphql-ninja-forms' ),
 			],
 		];
 	}
