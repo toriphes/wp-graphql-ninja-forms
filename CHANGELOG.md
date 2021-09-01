@@ -1,5 +1,15 @@
 #  Change Log
 
+## [0.1.4](https://github.com/toriphes/wp-graphql-ninja-forms/compare/0.1.3...0.1.4) (2021-09-01)
+
+
+### Bug Fixes
+
+* removed wrong FieldLabelPosEnum type ([639ac74](https://github.com/toriphes/wp-graphql-ninja-forms/commit/639ac74e204809634052c5144c6f158e1a568bfa)). Thanks @Marco-Daniel!
+* errors with wp-graphql >= 1.6 ([dd645657](https://github.com/toriphes/wp-graphql-ninja-forms/commit/dd6456573a619080a83465050d1ae42a8eacd6c6))
+
+
+
 ## [0.1.3](https://github.com/toriphes/wp-graphql-ninja-forms/compare/0.1.2...0.1.3) (2021-06-18)
 
 
