@@ -40,9 +40,10 @@ class Field_Type {
 			register_graphql_object_type(
 				$type_name,
 				[
-					'description' => $field->get_nicename(),
-					'interfaces'  => [ 'Node', 'DatabaseIdentifier', 'FormField' ],
-					'fields'      => $fields,
+					'description'		=> $field->get_nicename(),
+					'interfaces'		=> [ 'Node', 'DatabaseIdentifier', 'FormField' ],
+					'eagerlyLoadType'	=> true,
+					'fields'		=> $fields,
 				]
 			);
 		}
