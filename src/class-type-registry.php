@@ -11,6 +11,7 @@ namespace WPGraphQL\NinjaForms;
 use WPGraphQL\Registry\TypeRegistry;
 
 use WPGraphQL\NinjaForms\Enum\Id_Type_Enums;
+use WPGraphQL\NinjaForms\Enum\Field_Label_Pos_Enums;
 use WPGraphQL\NinjaForms\Type\WPInterface\Form_Field_Interface;
 use WPGraphQL\NinjaForms\Type\WPObject\Form_Type;
 use WPGraphQL\NinjaForms\Type\WPObject\Field_Type;
@@ -32,6 +33,7 @@ class Type_Registry {
 	public function init( TypeRegistry $type_registry ) {
 		// enums.
 		Id_Type_Enums::register();
+		Field_Label_Pos_Enums::register();
 
 		// interfaces.
 		Form_Field_Interface::register( $type_registry );
